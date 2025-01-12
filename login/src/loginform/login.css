@@ -1,0 +1,112 @@
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+
+
+    margin-top: 100px;
+     background-image: url('./back.png');
+     width:50%;
+     height: 37vw;
+    padding-bottom: 30px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    margin-top: 30px; 
+}
+.text{
+   
+    color: rgb(136, 165, 42);
+    font-size: 50px;
+    font-weight: 900;
+}
+.underline{
+   
+    width: 100px;
+    height: 5px;
+    background-color:rgb(116, 116, 203);
+    border-radius: 10px;
+}
+.input{
+   margin-top: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+   
+}
+.input1{
+
+  display: flex; /* Flex layout */
+  align-items: center; /* Align icon and input vertically */
+    font-size:40px ;
+    gap: 10px;
+    
+}
+.input1 input {
+    width: 200px; /* Set desired width */
+    height: 30px; /* Set desired height */
+    padding: 10px; /* Add padding for better spacing inside the box */
+    font-size: 16px; /* Adjust text size */
+    border: 1px solid #ccc; /* Optional: Customize border */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    padding-left: 30px;
+  }
+.forgot{
+    margin-top: 10px;
+    padding-left:220px ;
+    color: mediumvioletred;
+    font-size: 15px;
+}
+.forgot span{
+    color: hotpink;
+    cursor: pointer;
+}
+
+.submit-button{
+    margin:50px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+.login{
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+   background-color:rgb(224, 55, 25) ;
+   border-radius: 50px;
+   cursor: pointer;
+   transition: background-color 0.3s, color 0.3s;
+}
+.sign-up{
+    font-size: 45px;
+    font-weight: 900;
+    color: white;
+   background-color:rgb(224, 55, 25) ;
+   border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+/* When active, change the background and text color */
+.sign-up.active{
+    background-color: blue;
+    color: white;
+  }
+  .login.active {
+    background-color: blue;
+    color: white;
+  }
+  
+  /* Optional: Change the background color when not active */
+  .sign-up, .login {
+    background-color: transparent;
+    color: black;
+  }

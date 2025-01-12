@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
-import App from './App';
-
+import { Loginform } from './loginform/Loginform';
+import './loginform/login.css';
+import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Loginform/>
   </React.StrictMode>
 );
-
-
